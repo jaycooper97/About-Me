@@ -48,7 +48,9 @@ h2 {
 .something{
     color: red;
 }
-
+.list li{
+    font-size: medium;
+}
 p {
     background-color: chartreuse;
     font-size: xx-large;
@@ -73,11 +75,10 @@ a {
 @media screen and (max-width: 1200px){
     h1 {
         font-style: italic;
-        font-size: large;
-        text-align: flex-start;
+        font-size: medium;
+        text-align: left;
         height: 10px;
     }
-
     h2 {
         font-style: oblique;
         font-size: medium;
@@ -85,13 +86,11 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
-
     img {
         width: 100px;
         border: 5px solid darkorchid;
-        padding: 5px;
+        padding: 2px;
     }
-
     p {
         font-size: large;
         background-color: aqua;
@@ -106,19 +105,82 @@ a {
     font-size: medium;
     color: black;
 }
-
 .linkedin{
     font-size: medium;
     color: black;
 }
 
+
+.wrk{
+    font-size: medium;
+    color: black;
+}
+.home{
+    font-size: medium;
+    color: black;
+}
+.me{
+    color: black;
+    font-size: medium;
+}
+
+.ti{
+    color: darkgoldenrod;
+}
+.nes{
+    color: rgb(141, 10, 91);
+    font-style: normal;
+}
+.shelf{
+    color: rgb(55, 7, 133);
+    font-style: normal;
+}
+.hap{
+    color: rgb(3, 3, 122);
+    font-style: normal;
+}
+.north{
+    color: rgb(11, 34, 77);
+    font-style: normal;
+}
+.resp{
+    color: rgb(6, 39, 39);
+}
+.debt{
+    color: darkgreen;
+}
+.school{
+    color: black;
+    font-size: medium;
+}
 ul{
     background-color: aqua;
 }
-
 ul li{
-    font-size: large;
+    font-size: medium;
     color: crimson;
     background-color: aqua;
+}
+.title{
+    color: darkslategrey;
+}
+.something{
+    color: darkcyan;
+}
+.list{
+    color: chocolate;
+
+}
+.sch{
+    color: darkmagenta;
+    font-style: normal;
+}
+.pic{
+    color: brown;
+    font-style: normal;
+}
+.show{
+    color: indigo;
+    font-style: normal;
 }
 }
